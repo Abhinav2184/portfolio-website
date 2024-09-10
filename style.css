@@ -7,6 +7,7 @@ body{
     
     font-family:Ubuntu Static;
     background-color:white;
+    font-family: 'Inter', sans-serif;
 
 }
 
@@ -60,6 +61,8 @@ nav ul li a:active{
     width: 50%;
 }
 
+
+/*------------------- first  section-------------*/
 .firstsection{
     display: flex;
     justify-content:space-around;
@@ -116,6 +119,7 @@ nav ul li a:active{
     height:80%;
 }
 
+/*------------------- about section-------------*/
 .secondsection{
     display: flex;
     margin:25px;
@@ -157,6 +161,10 @@ nav ul li a:active{
     
     color: white;
 }
+
+
+
+/*------------------- foooter section-------------*/
 
 footer{
     background-color: blueviolet;
