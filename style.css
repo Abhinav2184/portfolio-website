@@ -120,6 +120,22 @@ nav ul li a:active{
 }
 
 /*------------------- about section-------------*/
+
+.about{
+    width: 100vw;
+    color: blueviolet;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    size:40px;
+    background-color:white;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+
+
 .secondsection{
     display: flex;
     margin:25px;
@@ -155,16 +171,44 @@ nav ul li a:active{
 .upper{
     
     color: white;
+    height: 100px;
 }
 
 .lower{
     
     color: white;
+    height: 100px;
 }
 
 
+/*------------------- project section-------------*/
+.project{
+    padding: 50px 0px;
+    text-align: center;
+}
 
-/*------------------- foooter section-------------*/
+.worklist{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.work.img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;   /* Moves the image to the right */
+    margin-right: auto; 
+}
+/*------------------- footer section-------------*/
 
 footer{
     background-color: blueviolet;
