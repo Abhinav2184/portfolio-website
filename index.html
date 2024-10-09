@@ -48,61 +48,86 @@
 
     <!------------------aboutsection----------------->
      <div class="about">
-        <h1>About Me</h1>
-     
-    <section class="secondsection">
-        <div class="first">
-            <h1>Educational Qualifications:</h1><br>
-            <p>Bachelor of Engineering and Technology: Graphic Era Hill University 2021-2025<br><br>
-                Intermediate: [CBSE] D.A.V Public School 2021 ( 82%)<br><br>
-                Matriculation: [CBSE] D.A.V Public School 2019  (85%)<br>
-            </p>
-        </div>
-        <div  class="second">
-            <div class="upper">
-            <h1>Technologies Known</h1><br>
-            <p>
-                REACT JS<br>
-                Node JS<br>
-                Mongo DB<br>
-            </p>
-            </div>
-        <br>
-    
-        <div class="lower">
-            <h1> Languages Known</h1><br>
+        <h1>About Me</h1><br>
+     <div class = "aboutcontainer">
+    <div class="div">
+        <h1>Education</h1>
+        <p>Bachelor of Engineering and Technology:<br> Graphic Era Hill University 2021-2025<br><br>
+            Intermediate: [CBSE] D.A.V Public School 2021 ( 82%)<br><br>
+            Matriculation: [CBSE] D.A.V Public School 2019  (85%)<br>
+        </p>
+
+    </div>
+    <div class="div">
+        <h1>Technologies Known</h1><br>
+        <p>
+            REACT JS<br>
+            Node JS<br>
+            EXPRESS JS<br>
+            Mongo DB
+        </p>
+
+    </div>
+    <div class="div">
+        <h1> Languages Known</h1><br>
             <p>C,C++<br>
                HTML,CSS,Java Script<br>
                JAVA<br>
                Python<br>
-               DBMS<br>
-
+               SQL<br>
+               PHP
             </p>
-            </div>
-        </div>
-    </section>
+
+    </div>
+
+     </div>
+   
     </div>
 
 
      <!------------------projectsection----------------->
     <div class="project">
         <div class="container">
-            <h1>Projects</h1>
+            <h1>PROJECTS</h1>
             <div class="worklist">
-                <div class="work">
-                    <img src="https://9to5mac.com/wp-content/uploads/sites/6/2023/04/Apple-Weather-app.jpg?quality=82&strip=all&w=1600">
-                </div>
+                <div class="card">
+                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/weather/weather-icon.png" alt="Card Image" class="card-img">
+                    <div class="card-content">
+                      <h2 class="card-title">Weather-App</h2>
+                      <p class="card-description">Developed a mobile weather app that provides real-time weather updates, forecasts, and
+                        alerts for locations worldwide.</p>
+                      <a href="#" class="card-button">Open Code</a>
+                    </div>
+                  </div>
 
-                <div class="work">
-                    <img src="https://img.freepik.com/premium-vector/voice-assistant-concept-artificial-intelligence-wave-microphone-control-sound-recognition_653980-38.jpg">
-                </div>
+                  <div class="card">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDh_m9F8Js7d4jiwwdkAvJ5tTv9phaqsd_rw&s" alt="Card Image" class="card-img">
+                    <div class="card-content">
+                      <h2 class="card-title">Voice-Assistant</h2>
+                      <p class="card-description">Designed and developed a voice-activated assistant capable of performing tasks, answering questions, and controlling smart devices.</p>
+                      <a href="#" class="card-button">Open Code</a>
+                    </div>
+                  </div>
 
-                <div class="work">
-                    <img src="https://resize.indiatvnews.com/en/resize/newbucket/1200_-/2021/01/goldprice-1610094551.jpg">
-                </div>
+                  <div class="card">
+                    <img src="data:image/jpeg;base64,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" alt="Card Image" class="card-img">
+                    <div class="card-content">
+                      <h2 class="card-title">Gold Price Prediction</h2>
+                      <p class="card-description">Developed a predictive model to forecast daily gold prices using historical
+                        data and machine learning techniques.
+                        </p>
+                      <a href="#" class="card-button">Open Code</a>
+                    </div>
+                  </div>
+
+
+
             </div>
         </div>
     </div>
+
+
+         <!------------------contactsection----------------->
     
     
     
